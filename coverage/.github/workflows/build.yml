@@ -5,6 +5,7 @@ on:
       - release_001_jest
   pull_request:
     types: [opened, synchronize, reopened]
+  workflow_dispatch:
 jobs:
   sonarqube:
     name: SonarQube
